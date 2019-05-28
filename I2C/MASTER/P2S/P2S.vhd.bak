@@ -1,0 +1,67 @@
+--- S2P
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+
+entity S2P is
+	port(
+			i_SCL				: in std_logic;									--- entrada de Clock
+			i_RST				: in std_logic;									--- entrada de RST global
+			
+			i_DATA			: in std_logic_vector (15 downto 0);		--- entrada de dado dos Switches
+			
+			o_CTRL_P2S		: out std_logic;									--- saida de controle P2S para STM_MASTER
+			i_ENABLE_START	: in std_logic;									--- entrada Enable de controle STM_MASTER
+			
+			o_SDA				: out std_logic									--- saida de dado SDA
+		);
+END S2P;
+
+architecture behavioral of S2P is
+
+	signal w_LIBERA	: std_logic;
+	signal i_ND_OUT	: std_logic;
+	signal w_REG		: std_logic_vector (15 downto 0);
+	
+	
+begin
+
+	process(i_SCL, i_RST)
+		variable cont : integer := 0;
+	begin
+		if(i_RST = '0') then
+			w_LIBERA 	<= '0';
+			cont 			:= 0;
+			o_CTRL_P2S	<= '0';
+		elsif rising_edge(i_SCL) then
+			if(i_ENABLE_START = '1') then
+				o_SDA		<= w_REG(15);
+				cont 		:= cont+1;
+				w_LIBERA	<= '1';
+				if (cont = 17) then
+					cont			:= 0;
+					o_CTRL_P2S	<= '1';
+				end if;
+			else
+				w_LIBERA <= '0';
+			end if;
+		end if;
+	end process;
+	
+	process(i_SCL)
+	begin
+		if falling_edge(i_SCL) then
+			if(i_ND_OUT = '1') then
+				w_REG		<= i_DATA;
+			else
+				if(w_LIBERA = '1') then
+					w_REG <= w_REG(14 downto 0) & '0';
+				end if;
+			end if;
+		end if;
+	end process;
+
+end behavioral;

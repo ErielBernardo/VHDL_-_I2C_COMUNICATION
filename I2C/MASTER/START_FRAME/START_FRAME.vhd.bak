@@ -1,0 +1,34 @@
+--- START_FRAME
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+
+entity START_FRAME is
+	port(
+			i_RST				: in std_logic;									--- entrada de RST global
+			i_SCL				: in std_logic;									--- entrada de Clock I2C SCL
+			i_ENABLE_START	: in std_logic;									--- entrada de Enable de controle de STM_MASTER
+			o_CTRL_START	: out std_logic;									--- saida de controle START_FRAME para STM_MASTER
+			o_SDA				: out std_logic									--- saida de dado I2C para REG_SDA
+		);
+END START_FRAME;
+
+architecture behavioral of START_FRAME is
+
+
+begin
+	
+	-- Logic to advance to the next state
+	process (i_RST, i_CLK)
+	begin
+		if (i_RST = '0') then
+			state		<= st_IDLE;
+		elsif falling_edge(i_CLK) then
+			
+		end if;
+	end process;
+	
+end behavioral;

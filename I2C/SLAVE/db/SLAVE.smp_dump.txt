@@ -1,0 +1,9 @@
+
+State Machine - |SLAVE|STM_SLAVE:U_STM_SLAVE|state
+Name state.st_NULL state.st_SND_DATA state.st_RC_DATA state.st_ID state.st_RW state.st_IDLE 
+state.st_IDLE 0 0 0 0 0 0 
+state.st_RW 0 0 0 0 1 1 
+state.st_ID 0 0 0 1 0 1 
+state.st_RC_DATA 0 0 1 0 0 1 
+state.st_SND_DATA 0 1 0 0 0 1 
+state.st_NULL 1 0 0 0 0 1 

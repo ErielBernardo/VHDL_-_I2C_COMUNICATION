@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, D:/VHDL/T8/I2C/MASTER/REG_EN/REG_EN.vhd
+source_file = 1, D:/VHDL/T8/I2C/MASTER/REG_EN/db/REG_EN.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = REG_EN
+instance = comp, \o_Q~output\, o_Q~output, REG_EN, 1
+instance = comp, \i_CLK~input\, i_CLK~input, REG_EN, 1
+instance = comp, \i_D~input\, i_D~input, REG_EN, 1
+instance = comp, \i_RST~input\, i_RST~input, REG_EN, 1
+instance = comp, \i_ENABLE~input\, i_ENABLE~input, REG_EN, 1
+instance = comp, \o_Q~0\, o_Q~0, REG_EN, 1
+instance = comp, \o_Q~reg0\, o_Q~reg0, REG_EN, 1

@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'i_RST'
+Slack : -1.114
+TNS   : -1.114
+
+Type  : Slow 1200mV 85C Model Setup 'i_CLK'
+Slack : -0.088
+TNS   : -0.175
+
+Type  : Slow 1200mV 85C Model Hold 'i_CLK'
+Slack : 0.541
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'i_RST'
+Slack : 0.752
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'i_CLK'
+Slack : -0.470
+TNS   : -2.198
+
+Type  : Slow 1200mV 85C Model Removal 'i_CLK'
+Slack : -0.017
+TNS   : -0.034
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'i_CLK'
+Slack : -3.000
+TNS   : -9.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'i_RST'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Setup 'i_RST'
+Slack : -0.889
+TNS   : -0.889
+
+Type  : Slow 1200mV 0C Model Setup 'i_CLK'
+Slack : 0.048
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'i_CLK'
+Slack : 0.487
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'i_RST'
+Slack : 0.668
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'i_CLK'
+Slack : -0.340
+TNS   : -1.516
+
+Type  : Slow 1200mV 0C Model Removal 'i_CLK'
+Slack : -0.002
+TNS   : -0.004
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'i_CLK'
+Slack : -3.000
+TNS   : -9.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'i_RST'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Setup 'i_RST'
+Slack : -0.247
+TNS   : -0.247
+
+Type  : Fast 1200mV 0C Model Setup 'i_CLK'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'i_CLK'
+Slack : 0.281
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'i_RST'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'i_CLK'
+Slack : -0.342
+TNS   : -1.638
+
+Type  : Fast 1200mV 0C Model Removal 'i_CLK'
+Slack : -0.112
+TNS   : -0.224
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'i_CLK'
+Slack : -3.000
+TNS   : -9.236
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'i_RST'
+Slack : -3.000
+TNS   : -3.000
+
+------------------------------------------------------------

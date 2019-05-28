@@ -1,0 +1,133 @@
+{{D:/VHDL/T8/IN WORKING/SLAVE/DET_FRAME/DET_BORDA.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/SLAVE/DET_FRAME/DET_BORDA.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DET_BORDA
+-- Compiling architecture behavioral of DET_BORDA
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/SLAVE/SLAVE.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/SLAVE/SLAVE.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity SLAVE
+-- Compiling architecture behavioral of SLAVE
+
+} {} {}} {D:/VHDL/T8/IN WORKING/SLAVE/SLAVE.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/SLAVE/SLAVE.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity SLAVE
+-- Compiling architecture behavioral of SLAVE
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/SLAVE/S2P/S2P.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/SLAVE/S2P/S2P.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity S2P
+-- Compiling architecture behavioral of S2P
+
+} {} {}} {D:/VHDL/T8/IN WORKING/SLAVE/S2P/S2P.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/SLAVE/S2P/S2P.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity S2P
+-- Compiling architecture behavioral of S2P
+
+} {} {}} {D:/VHDL/T8/IN WORKING/SLAVE/DET_FRAME/DET_BORDA.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/SLAVE/DET_FRAME/DET_BORDA.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DET_BORDA
+-- Compiling architecture behavioral of DET_BORDA
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/SLAVE/STM_SLAVE/STM_SLAVE.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/SLAVE/STM_SLAVE/STM_SLAVE.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity STM_SLAVE
+-- Compiling architecture behavioral of STM_SLAVE
+
+} {} {}} {D:/VHDL/T8/IN WORKING/SLAVE/STM_SLAVE/STM_SLAVE.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/SLAVE/STM_SLAVE/STM_SLAVE.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity STM_SLAVE
+-- Compiling architecture behavioral of STM_SLAVE
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/SLAVE/DET_FRAME/DET_FRAME.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/SLAVE/DET_FRAME/DET_FRAME.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DET_FRAME
+-- Compiling architecture behavioral of DET_FRAME
+
+} {} {}} {D:/VHDL/T8/IN WORKING/SLAVE/DET_FRAME/DET_FRAME.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/SLAVE/DET_FRAME/DET_FRAME.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DET_FRAME
+-- Compiling architecture behavioral of DET_FRAME
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/SLAVE/TB_SLAVE.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/SLAVE/TB_SLAVE.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity TB_SLAVE
+-- Compiling architecture behavioral of TB_SLAVE
+
+} {} {}} {D:/VHDL/T8/IN WORKING/SLAVE/TB_SLAVE.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/SLAVE/TB_SLAVE.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity TB_SLAVE
+-- Compiling architecture behavioral of TB_SLAVE
+
+} {} {}}

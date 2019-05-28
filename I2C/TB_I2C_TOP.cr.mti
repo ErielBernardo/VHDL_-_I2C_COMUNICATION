@@ -1,0 +1,358 @@
+{D:/VHDL/T8/IN WORKING/I2C/SLAVE/DET_FRAME/DET_FRAME.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/SLAVE/DET_FRAME/DET_FRAME.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DET_FRAME
+-- Compiling architecture behavioral of DET_FRAME
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/MASTER/MASTER.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/MASTER.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MASTER
+-- Compiling architecture behavioral of MASTER
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/BCD7/BCD7.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/BCD7/BCD7.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BCD7
+-- Compiling architecture behavioral of BCD7
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/MASTER/STM_MASTER/STM_MASTER.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/STM_MASTER/STM_MASTER.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity STM_MASTER
+-- Compiling architecture behavioral of STM_MASTER
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/MASTER/PLL_100K/PLL_100K.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/PLL_100K/PLL_100K.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity PLL_100K
+-- Compiling architecture behavioral of PLL_100K
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/MASTER/START_FRAME/START_FRAME.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/START_FRAME/START_FRAME.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity START_FRAME
+-- Compiling architecture behavioral of START_FRAME
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/MASTER/REG_EN/REG_EN.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/REG_EN/REG_EN.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity REG_EN
+-- Compiling architecture behavioral of REG_EN
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/MASTER/STOP_FRAME/STOP_FRAME.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/STOP_FRAME/STOP_FRAME.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity STOP_FRAME
+-- Compiling architecture behavioral of STOP_FRAME
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/SLAVE/S2P/S2P.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/SLAVE/S2P/S2P.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity S2P
+-- Compiling architecture behavioral of S2P
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/MASTER/P2S/P2S.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/P2S/P2S.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity P2S
+-- Compiling architecture behavioral of P2S
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/MUX_3x1_3SEL/MUX_3x1_3SEL.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MUX_3x1_3SEL/MUX_3x1_3SEL.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MUX_3x1_3SEL
+-- Compiling architecture behavioral of MUX_3x1_3SEL
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/SLAVE/SLAVE.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/SLAVE/SLAVE.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity SLAVE
+-- Compiling architecture behavioral of SLAVE
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/SLAVE/STM_SLAVE/STM_SLAVE.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/SLAVE/STM_SLAVE/STM_SLAVE.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity STM_SLAVE
+-- Compiling architecture behavioral of STM_SLAVE
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/MASTER/PLL_100K/altpll0.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/PLL_100K/altpll0.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity altpll0
+-- Compiling architecture SYN of altpll0
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/MASTER/PLL_100K/altpll0.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/PLL_100K/altpll0.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity altpll0
+-- Compiling architecture SYN of altpll0
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/MASTER/MASTER.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/MASTER.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MASTER
+-- Compiling architecture behavioral of MASTER
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/SLAVE/DET_FRAME/DET_FRAME.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/SLAVE/DET_FRAME/DET_FRAME.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DET_FRAME
+-- Compiling architecture behavioral of DET_FRAME
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/BCD7/BCD7.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/BCD7/BCD7.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BCD7
+-- Compiling architecture behavioral of BCD7
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/I2C_TOP.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/I2C_TOP.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity I2C_TOP
+-- Compiling architecture behavioral of I2C_TOP
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/MASTER/STM_MASTER/STM_MASTER.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/STM_MASTER/STM_MASTER.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity STM_MASTER
+-- Compiling architecture behavioral of STM_MASTER
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/I2C_TOP.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/I2C_TOP.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity I2C_TOP
+-- Compiling architecture behavioral of I2C_TOP
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/MASTER/PLL_100K/PLL_100K.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/PLL_100K/PLL_100K.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity PLL_100K
+-- Compiling architecture behavioral of PLL_100K
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/MASTER/START_FRAME/START_FRAME.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/START_FRAME/START_FRAME.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity START_FRAME
+-- Compiling architecture behavioral of START_FRAME
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/MASTER/REG_EN/REG_EN.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/REG_EN/REG_EN.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity REG_EN
+-- Compiling architecture behavioral of REG_EN
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/MASTER/STOP_FRAME/STOP_FRAME.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/STOP_FRAME/STOP_FRAME.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity STOP_FRAME
+-- Compiling architecture behavioral of STOP_FRAME
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/SLAVE/S2P/S2P.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/SLAVE/S2P/S2P.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity S2P
+-- Compiling architecture behavioral of S2P
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/SLAVE/DET_FRAME/DET_BORDA.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/SLAVE/DET_FRAME/DET_BORDA.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DET_BORDA
+-- Compiling architecture behavioral of DET_BORDA
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/MASTER/P2S/P2S.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/MASTER/P2S/P2S.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity P2S
+-- Compiling architecture behavioral of P2S
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/SLAVE/DET_FRAME/DET_BORDA.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/SLAVE/DET_FRAME/DET_BORDA.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DET_BORDA
+-- Compiling architecture behavioral of DET_BORDA
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/TB_I2C_TOP.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/TB_I2C_TOP.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity TB_I2C_TOP
+-- Compiling architecture behavioral of TB_I2C_TOP
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/SLAVE/SLAVE.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/SLAVE/SLAVE.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity SLAVE
+-- Compiling architecture behavioral of SLAVE
+
+} {} {}} {{D:/VHDL/T8/IN WORKING/I2C/TB_I2C_TOP.vhd}} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/TB_I2C_TOP.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity TB_I2C_TOP
+-- Compiling architecture behavioral of TB_I2C_TOP
+
+} {} {}} {D:/VHDL/T8/IN WORKING/I2C/SLAVE/STM_SLAVE/STM_SLAVE.vhd} {1 {vcom -work work -2002 -explicit {D:/VHDL/T8/IN WORKING/I2C/SLAVE/STM_SLAVE/STM_SLAVE.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity STM_SLAVE
+-- Compiling architecture behavioral of STM_SLAVE
+
+} {} {}}

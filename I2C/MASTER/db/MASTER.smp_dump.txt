@@ -1,0 +1,8 @@
+
+State Machine - |MASTER|STM_MASTER:U_STM_MASTER|state
+Name state.st_CLOSE_COM state.st_SND_DATA state.st_START_COM state.st_READ_SW state.st_IDLE 
+state.st_IDLE 0 0 0 0 0 
+state.st_READ_SW 0 0 0 1 1 
+state.st_START_COM 0 0 1 0 1 
+state.st_SND_DATA 0 1 0 0 1 
+state.st_CLOSE_COM 1 0 0 0 1 

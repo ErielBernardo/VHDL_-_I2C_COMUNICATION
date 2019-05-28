@@ -1,0 +1,857 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -9.753
+TNS   : -299.591
+
+Type  : Slow 1200mV 85C Model Setup 'i_CLK'
+Slack : -3.614
+TNS   : -48.901
+
+Type  : Slow 1200mV 85C Model Setup 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : -2.308
+TNS   : -5.615
+
+Type  : Slow 1200mV 85C Model Setup 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : -2.192
+TNS   : -81.712
+
+Type  : Slow 1200mV 85C Model Setup 'i_RST'
+Slack : -2.095
+TNS   : -3.146
+
+Type  : Slow 1200mV 85C Model Setup 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -1.414
+TNS   : -6.848
+
+Type  : Slow 1200mV 85C Model Setup 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : -1.296
+TNS   : -1.296
+
+Type  : Slow 1200mV 85C Model Setup 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -1.090
+TNS   : -5.627
+
+Type  : Slow 1200mV 85C Model Setup 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.963
+TNS   : -4.708
+
+Type  : Slow 1200mV 85C Model Setup 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.032
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'i_BT_A'
+Slack : 1.383
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'i_RST'
+Slack : -3.612
+TNS   : -34.625
+
+Type  : Slow 1200mV 85C Model Hold 'i_BT_A'
+Slack : -2.437
+TNS   : -4.872
+
+Type  : Slow 1200mV 85C Model Hold 'i_CLK'
+Slack : -2.240
+TNS   : -5.688
+
+Type  : Slow 1200mV 85C Model Hold 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -1.415
+TNS   : -1.415
+
+Type  : Slow 1200mV 85C Model Hold 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : -1.407
+TNS   : -1.477
+
+Type  : Slow 1200mV 85C Model Hold 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : -0.952
+TNS   : -1.510
+
+Type  : Slow 1200mV 85C Model Hold 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -0.885
+TNS   : -0.885
+
+Type  : Slow 1200mV 85C Model Hold 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.706
+TNS   : -0.706
+
+Type  : Slow 1200mV 85C Model Hold 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -0.576
+TNS   : -0.576
+
+Type  : Slow 1200mV 85C Model Hold 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.568
+TNS   : -0.568
+
+Type  : Slow 1200mV 85C Model Hold 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : -0.480
+TNS   : -0.480
+
+Type  : Slow 1200mV 85C Model Hold 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -0.437
+TNS   : -0.437
+
+Type  : Slow 1200mV 85C Model Hold 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -9.604
+TNS   : -475.457
+
+Type  : Slow 1200mV 85C Model Recovery 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : -2.675
+TNS   : -3.874
+
+Type  : Slow 1200mV 85C Model Recovery 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : -2.013
+TNS   : -2.899
+
+Type  : Slow 1200mV 85C Model Recovery 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : -2.012
+TNS   : -29.576
+
+Type  : Slow 1200mV 85C Model Recovery 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -1.875
+TNS   : -1.875
+
+Type  : Slow 1200mV 85C Model Recovery 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -1.769
+TNS   : -8.703
+
+Type  : Slow 1200mV 85C Model Recovery 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : -1.749
+TNS   : -6.199
+
+Type  : Slow 1200mV 85C Model Recovery 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -1.428
+TNS   : -1.428
+
+Type  : Slow 1200mV 85C Model Recovery 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -1.324
+TNS   : -5.122
+
+Type  : Slow 1200mV 85C Model Recovery 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -1.099
+TNS   : -1.099
+
+Type  : Slow 1200mV 85C Model Recovery 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.685
+TNS   : -1.263
+
+Type  : Slow 1200mV 85C Model Recovery 'i_CLK'
+Slack : -0.171
+TNS   : -1.252
+
+Type  : Slow 1200mV 85C Model Recovery 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_READ_SW'
+Slack : -0.038
+TNS   : -0.038
+
+Type  : Slow 1200mV 85C Model Recovery 'i_BT_A'
+Slack : 1.474
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'i_BT_A'
+Slack : -2.621
+TNS   : -5.241
+
+Type  : Slow 1200mV 85C Model Removal 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -1.035
+TNS   : -6.884
+
+Type  : Slow 1200mV 85C Model Removal 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_READ_SW'
+Slack : -0.606
+TNS   : -4.256
+
+Type  : Slow 1200mV 85C Model Removal 'i_CLK'
+Slack : -0.537
+TNS   : -4.508
+
+Type  : Slow 1200mV 85C Model Removal 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.205
+TNS   : -1.613
+
+Type  : Slow 1200mV 85C Model Removal 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : -0.116
+TNS   : -0.836
+
+Type  : Slow 1200mV 85C Model Removal 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : 0.113
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : 0.797
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.886
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 1.383
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1.661
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'i_RST'
+Slack : -3.000
+TNS   : -20.770
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'i_BT_A'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : -1.000
+TNS   : -78.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : 0.374
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : 0.418
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.420
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : 0.420
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.421
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : 0.421
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_READ_SW'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'i_CLK'
+Slack : 9.638
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4999.775
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -8.766
+TNS   : -268.505
+
+Type  : Slow 1200mV 0C Model Setup 'i_CLK'
+Slack : -3.203
+TNS   : -39.884
+
+Type  : Slow 1200mV 0C Model Setup 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : -2.091
+TNS   : -4.974
+
+Type  : Slow 1200mV 0C Model Setup 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : -2.009
+TNS   : -66.870
+
+Type  : Slow 1200mV 0C Model Setup 'i_RST'
+Slack : -1.760
+TNS   : -2.298
+
+Type  : Slow 1200mV 0C Model Setup 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -1.243
+TNS   : -5.871
+
+Type  : Slow 1200mV 0C Model Setup 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : -1.130
+TNS   : -1.130
+
+Type  : Slow 1200mV 0C Model Setup 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.934
+TNS   : -4.586
+
+Type  : Slow 1200mV 0C Model Setup 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.827
+TNS   : -3.775
+
+Type  : Slow 1200mV 0C Model Setup 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.056
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.088
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.211
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'i_BT_A'
+Slack : 1.295
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'i_RST'
+Slack : -3.335
+TNS   : -32.016
+
+Type  : Slow 1200mV 0C Model Hold 'i_BT_A'
+Slack : -2.168
+TNS   : -4.301
+
+Type  : Slow 1200mV 0C Model Hold 'i_CLK'
+Slack : -1.960
+TNS   : -6.533
+
+Type  : Slow 1200mV 0C Model Hold 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -1.278
+TNS   : -1.278
+
+Type  : Slow 1200mV 0C Model Hold 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : -1.241
+TNS   : -1.299
+
+Type  : Slow 1200mV 0C Model Hold 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : -0.867
+TNS   : -1.359
+
+Type  : Slow 1200mV 0C Model Hold 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -0.816
+TNS   : -0.816
+
+Type  : Slow 1200mV 0C Model Hold 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.641
+TNS   : -0.641
+
+Type  : Slow 1200mV 0C Model Hold 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -0.520
+TNS   : -0.520
+
+Type  : Slow 1200mV 0C Model Hold 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.514
+TNS   : -0.514
+
+Type  : Slow 1200mV 0C Model Hold 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : -0.424
+TNS   : -0.424
+
+Type  : Slow 1200mV 0C Model Hold 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -0.392
+TNS   : -0.392
+
+Type  : Slow 1200mV 0C Model Hold 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -8.631
+TNS   : -427.515
+
+Type  : Slow 1200mV 0C Model Recovery 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : -2.486
+TNS   : -3.663
+
+Type  : Slow 1200mV 0C Model Recovery 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : -1.895
+TNS   : -2.736
+
+Type  : Slow 1200mV 0C Model Recovery 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : -1.740
+TNS   : -25.519
+
+Type  : Slow 1200mV 0C Model Recovery 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -1.730
+TNS   : -1.730
+
+Type  : Slow 1200mV 0C Model Recovery 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -1.632
+TNS   : -8.563
+
+Type  : Slow 1200mV 0C Model Recovery 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : -1.575
+TNS   : -5.438
+
+Type  : Slow 1200mV 0C Model Recovery 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -1.317
+TNS   : -1.317
+
+Type  : Slow 1200mV 0C Model Recovery 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -1.220
+TNS   : -5.225
+
+Type  : Slow 1200mV 0C Model Recovery 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -1.008
+TNS   : -1.008
+
+Type  : Slow 1200mV 0C Model Recovery 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.650
+TNS   : -1.297
+
+Type  : Slow 1200mV 0C Model Recovery 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_READ_SW'
+Slack : -0.117
+TNS   : -0.196
+
+Type  : Slow 1200mV 0C Model Recovery 'i_CLK'
+Slack : -0.045
+TNS   : -0.304
+
+Type  : Slow 1200mV 0C Model Recovery 'i_BT_A'
+Slack : 1.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'i_BT_A'
+Slack : -2.371
+TNS   : -4.741
+
+Type  : Slow 1200mV 0C Model Removal 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.864
+TNS   : -5.367
+
+Type  : Slow 1200mV 0C Model Removal 'i_CLK'
+Slack : -0.515
+TNS   : -3.726
+
+Type  : Slow 1200mV 0C Model Removal 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_READ_SW'
+Slack : -0.461
+TNS   : -3.108
+
+Type  : Slow 1200mV 0C Model Removal 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.122
+TNS   : -0.949
+
+Type  : Slow 1200mV 0C Model Removal 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : -0.035
+TNS   : -0.192
+
+Type  : Slow 1200mV 0C Model Removal 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : 0.153
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : 0.332
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : 0.374
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : 0.823
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.879
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 1.320
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'i_RST'
+Slack : -3.000
+TNS   : -16.786
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'i_BT_A'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : -1.000
+TNS   : -78.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : 0.414
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.416
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : 0.423
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_READ_SW'
+Slack : 0.472
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'i_CLK'
+Slack : 9.640
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4999.761
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -5.503
+TNS   : -163.779
+
+Type  : Fast 1200mV 0C Model Setup 'i_CLK'
+Slack : -1.805
+TNS   : -13.212
+
+Type  : Fast 1200mV 0C Model Setup 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : -1.188
+TNS   : -2.955
+
+Type  : Fast 1200mV 0C Model Setup 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : -1.020
+TNS   : -17.280
+
+Type  : Fast 1200mV 0C Model Setup 'i_RST'
+Slack : -0.872
+TNS   : -0.936
+
+Type  : Fast 1200mV 0C Model Setup 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.632
+TNS   : -2.367
+
+Type  : Fast 1200mV 0C Model Setup 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : -0.573
+TNS   : -0.573
+
+Type  : Fast 1200mV 0C Model Setup 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.482
+TNS   : -1.791
+
+Type  : Fast 1200mV 0C Model Setup 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.372
+TNS   : -1.221
+
+Type  : Fast 1200mV 0C Model Setup 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.207
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.217
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.263
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'i_BT_A'
+Slack : 0.751
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'i_RST'
+Slack : -1.967
+TNS   : -17.754
+
+Type  : Fast 1200mV 0C Model Hold 'i_BT_A'
+Slack : -1.533
+TNS   : -3.027
+
+Type  : Fast 1200mV 0C Model Hold 'i_CLK'
+Slack : -1.378
+TNS   : -13.853
+
+Type  : Fast 1200mV 0C Model Hold 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : -0.830
+TNS   : -0.860
+
+Type  : Fast 1200mV 0C Model Hold 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.790
+TNS   : -0.790
+
+Type  : Fast 1200mV 0C Model Hold 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : -0.504
+TNS   : -0.816
+
+Type  : Fast 1200mV 0C Model Hold 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -0.464
+TNS   : -0.464
+
+Type  : Fast 1200mV 0C Model Hold 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.384
+TNS   : -0.384
+
+Type  : Fast 1200mV 0C Model Hold 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.311
+TNS   : -0.311
+
+Type  : Fast 1200mV 0C Model Hold 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -0.309
+TNS   : -0.309
+
+Type  : Fast 1200mV 0C Model Hold 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -0.235
+TNS   : -0.235
+
+Type  : Fast 1200mV 0C Model Hold 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : -0.227
+TNS   : -0.227
+
+Type  : Fast 1200mV 0C Model Hold 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -5.467
+TNS   : -269.371
+
+Type  : Fast 1200mV 0C Model Recovery 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : -1.387
+TNS   : -1.799
+
+Type  : Fast 1200mV 0C Model Recovery 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : -1.152
+TNS   : -3.983
+
+Type  : Fast 1200mV 0C Model Recovery 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : -0.975
+TNS   : -14.172
+
+Type  : Fast 1200mV 0C Model Recovery 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : -0.909
+TNS   : -1.187
+
+Type  : Fast 1200mV 0C Model Recovery 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -0.835
+TNS   : -0.835
+
+Type  : Fast 1200mV 0C Model Recovery 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.782
+TNS   : -3.148
+
+Type  : Fast 1200mV 0C Model Recovery 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -0.589
+TNS   : -0.589
+
+Type  : Fast 1200mV 0C Model Recovery 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.537
+TNS   : -1.165
+
+Type  : Fast 1200mV 0C Model Recovery 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : -0.431
+TNS   : -0.431
+
+Type  : Fast 1200mV 0C Model Recovery 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.186
+TNS   : -0.313
+
+Type  : Fast 1200mV 0C Model Recovery 'i_CLK'
+Slack : -0.030
+TNS   : -0.060
+
+Type  : Fast 1200mV 0C Model Recovery 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_READ_SW'
+Slack : 0.330
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'i_BT_A'
+Slack : 0.761
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'i_BT_A'
+Slack : -1.580
+TNS   : -3.158
+
+Type  : Fast 1200mV 0C Model Removal 'i_CLK'
+Slack : -0.681
+TNS   : -12.323
+
+Type  : Fast 1200mV 0C Model Removal 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : -0.281
+TNS   : -0.741
+
+Type  : Fast 1200mV 0C Model Removal 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_READ_SW'
+Slack : -0.141
+TNS   : -0.693
+
+Type  : Fast 1200mV 0C Model Removal 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : -0.130
+TNS   : -1.252
+
+Type  : Fast 1200mV 0C Model Removal 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : 0.100
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : 0.257
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : 0.510
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.554
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : 0.766
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.821
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.929
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 1.119
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'i_RST'
+Slack : -3.000
+TNS   : -9.296
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'i_BT_A'
+Slack : -3.000
+TNS   : -3.123
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MASTER:U_MASTER|REG_EN:U_REG_SCL|o_Q'
+Slack : -1.000
+TNS   : -78.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_IDLE'
+Slack : 0.366
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_READ_SW'
+Slack : 0.368
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_SND_DATA'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : 0.392
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MASTER:U_MASTER|STM_MASTER:U_STM_MASTER|state.st_CLOSE_COM'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : 0.416
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_RC_DATA'
+Slack : 0.423
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SLAVE:U_SLAVE_C|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.456
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SLAVE:U_SLAVE_B|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.457
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SLAVE:U_SLAVE_A|STM_SLAVE:U_STM_SLAVE|state.st_NULL'
+Slack : 0.458
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'i_CLK'
+Slack : 9.401
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'U_MASTER|U_PLL_100K|U_altpll0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4999.742
+TNS   : 0.000
+
+------------------------------------------------------------

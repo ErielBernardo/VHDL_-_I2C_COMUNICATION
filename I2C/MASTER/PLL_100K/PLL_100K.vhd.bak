@@ -1,0 +1,43 @@
+--- 100K_PLL
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+
+ENTITY 100K_PLL IS
+END 100K_PLL;
+
+architecture behavioral of STM_MASTER is
+	ENTITY altpll0 IS
+		PORT
+		(
+			inclk0	: IN STD_LOGIC  := '0';
+			c0			: OUT STD_LOGIC ;
+			c1			: OUT STD_LOGIC 
+		);
+	END altpll0;
+	
+	signal w_inclk0	: STD_LOGIC;
+	signal w_c0			: STD_LOGIC;
+	signal w_c1			: STD_LOGIC ;
+begin
+
+	U00 : altpll0
+		PORT MAP
+		(
+			inclk0	=> w_inclk0,
+			c0			=> w_c0,
+			c1			=> w_c1
+		);
+	
+	process
+	begin
+		w_inclk0 <= '0';
+		wait for 10 ns;
+		w_inclk0 <= '1';
+		wait for 10 ns;
+	end process
+
+end behavioral;

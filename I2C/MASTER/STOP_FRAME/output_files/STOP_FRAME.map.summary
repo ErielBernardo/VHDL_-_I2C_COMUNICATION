@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Dec 03 04:53:47 2018
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : STOP_FRAME
+Top-level Entity Name : STOP_FRAME
+Family : Cyclone III
+Total logic elements : 4
+    Total combinational functions : 1
+    Dedicated logic registers : 3
+Total registers : 3
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

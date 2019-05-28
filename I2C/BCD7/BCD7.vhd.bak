@@ -1,0 +1,81 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+
+entity BCD7 is
+	port(
+			i_CLK 		: in  std_logic;
+			i_RST 		: in  std_logic;
+			i_START		: in  std_logic;
+			i_STOP 		: in  std_logic;
+			i_RESTART	: in  std_logic;
+			o_LED			: out std_logic_vector(9 downto 0)
+		);
+END BCD7;
+
+architecture behavioral of BCD7 is
+
+	type state_type is (st_IDLE, st_CONTAR, st_PARADO);
+	signal state : state_type;
+	signal w_LED : std_logic_vector (9 downto 0);
+	signal w_CONT : std_logic_vector (27 downto 0);
+	
+begin
+	
+	o_LED <= w_LED; 
+	
+	process (i_CLK, i_RST)
+	begin
+		if (i_RST = '0') then
+			w_LED <= (others => '0');
+			w_CONT <= (others => '0');
+			state <= st_IDLE;
+		
+		elsif RISING_EDGE (i_CLK) then
+			
+			case state is
+				when st_IDLE => 
+					if (i_START = '0') then
+						w_CONT <= w_CONT + 1;
+						state <= st_CONTAR;
+					else
+						state <= st_IDLE;
+					end if;
+					
+				when st_CONTAR => 
+					if (w_CONT = x"2FAF080") then
+						w_LED <= w_LED + 1;
+						w_CONT <= (others => '0');
+						state <= st_CONTAR;
+					elsif (i_STOP = '0') then
+						state <= st_PARADO;
+					elsif (i_RESTART = '0') then
+						w_CONT <= (others => '0');
+						w_LED <= (others => '0');
+						state <= st_IDLE;
+					else 
+						w_CONT <= w_CONT + 1;
+						state <= st_CONTAR;	
+					end if;
+					
+				
+				when st_PARADO =>
+					if (i_START = '0') then
+						state <= st_CONTAR;
+					elsif (i_RESTART = '0') then
+						w_CONT <= (others => '0');
+						w_LED <= (others => '0');
+						state <= st_IDLE;
+					else 
+						state <= st_PARADO;
+						w_CONT <= w_CONT + 1;
+					end if;
+							
+				when others => 	
+					state <= st_IDLE;
+			end case;		
+		end if;
+	end process;
+end behavioral;
